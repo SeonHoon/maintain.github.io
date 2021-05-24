@@ -1,0 +1,2 @@
+IIS안에 한 서비스에서
+connectionStrings의 같은 key값은 사용불가하다.
