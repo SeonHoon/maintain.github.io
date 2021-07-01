@@ -1,0 +1,6 @@
+switch 문을 사용하여 
+Case문에 Enum을 사용하면 Compiler에서 Enum을 lookup 테이블로 바꿔주어서 속도향상에 영향이 크다.
+
+주의.
+Switch Default에 예외사항을 위해 Enum값이 아닌 별도 값으로 넣어두면 나머지 전체 lookup 테이블로 변환된것들이 무의미해지므
+Default도 Enum으로 같이 처리해주어야함.
